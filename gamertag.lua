@@ -3,7 +3,7 @@ CreateThread(function()
         Wait(0)
         local playerId = PlayerId()
         local Ped = GetPlayerPed(-1)
-        local PlayerName = GetPlayerName(PlayerId())
+        local PlayerName = GetPlayerName(playerId)
         local WantedLevel = GetPlayerWantedLevel(playerId)
         local CurrentVehicle = GetVehiclePedIsIn(PlayerPedId())
         
